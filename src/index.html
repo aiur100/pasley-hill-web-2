@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/main.css" rel="stylesheet" />
+    <title>Pasley Hill LLC</title>
+  </head>
+  <body>
+    <main>
+      <div class="relative overflow-hidden bg-gray-50">
+        <div
+          class="hidden sm:absolute sm:inset-y-0 sm:block sm:h-full sm:w-full"
+          aria-hidden="true"
+        >
+          <div class="relative mx-auto h-full max-w-7xl">
+            <svg
+              class="absolute right-full translate-y-1/4 translate-x-1/4 transform lg:translate-x-1/2"
+              width="404"
+              height="784"
+              fill="none"
+              viewBox="0 0 404 784"
+            >
+              <defs>
+                <pattern
+                  id="f210dbf6-a58d-4871-961e-36d5016a0f49"
+                  x="0"
+                  y="0"
+                  width="20"
+                  height="20"
+                  patternUnits="userSpaceOnUse"
+                >
+                  <rect
+                    x="0"
+                    y="0"
+                    width="4"
+                    height="4"
+                    class="text-gray-200"
+                    fill="currentColor"
+                  />
+                </pattern>
+              </defs>
+              <rect
+                width="404"
+                height="784"
+                fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)"
+              />
+            </svg>
+            <svg
+              class="absolute left-full -translate-y-3/4 -translate-x-1/4 transform md:-translate-y-1/2 lg:-translate-x-1/2"
+              width="404"
+              height="784"
+              fill="none"
+              viewBox="0 0 404 784"
+            >
+              <defs>
+                <pattern
+                  id="5d0dd344-b041-4d26-bec4-8d33ea57ec9b"
+                  x="0"
+                  y="0"
+                  width="20"
+                  height="20"
+                  patternUnits="userSpaceOnUse"
+                >
+                  <rect
+                    x="0"
+                    y="0"
+                    width="4"
+                    height="4"
+                    class="text-gray-200"
+                    fill="currentColor"
+                  />
+                </pattern>
+              </defs>
+              <rect
+                width="404"
+                height="784"
+                fill="url(#5d0dd344-b041-4d26-bec4-8d33ea57ec9b)"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="relative pt-6 pb-16 sm:pb-24">
+          <div>
+            <div class="mx-auto max-w-7xl px-4 sm:px-6">
+              <nav
+                class="relative flex items-center justify-between sm:h-10 md:justify-center"
+                aria-label="Global"
+              >
+                <div
+                  class="flex flex-1 items-center md:absolute md:inset-y-0 md:left-0"
+                >
+                  <div
+                    class="flex w-full items-center justify-between md:w-auto"
+                  >
+                    <a href="#">
+                      <span class="sr-only">Pasley Hill LLC</span>
+                      <img
+                        class="h-8 w-auto sm:h-10"
+                        src="ph_logo_2.png"
+                        alt=""
+                      />
+                    </a>
+                    <div class="-mr-2 flex items-center md:hidden">
+                      <button
+                        type="button"
+                        class="inline-flex items-center justify-center rounded-md bg-gray-50 p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cyan-500"
+                        aria-expanded="false"
+                        id="open-menu-button"
+                      >
+                        <span class="sr-only">Open main menu</span>
+                        <!-- Heroicon name: outline/bars-3 -->
+                        <svg
+                          class="h-6 w-6"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          aria-hidden="true"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden md:flex md:space-x-10">
+                  <a
+                    href="#"
+                    class="font-medium text-gray-500 hover:text-gray-900"
+                    >Past Projects</a
+                  >
+
+                  <a
+                    href="#"
+                    class="font-medium text-gray-500 hover:text-gray-900"
+                    >Products</a
+                  >
+
+                  <a
+                    href="#"
+                    class="font-medium text-gray-500 hover:text-gray-900"
+                    >Who we are</a
+                  >
+
+                  <a
+                    href="#"
+                    class="font-medium text-gray-500 hover:text-gray-900"
+                    >Contact Us</a
+                  >
+                </div>
+                
+              </nav>
+            </div>
+
+            <!--
+                  Mobile menu, show/hide based on menu open state.
+          
+                  Entering: "duration-150 ease-out"
+                    From: "opacity-0 scale-95"
+                    To: "opacity-100 scale-100"
+                  Leaving: "duration-100 ease-in"
+                    From: "opacity-100 scale-100"
+                    To: "opacity-0 scale-95"
+                -->
+            <div
+            id="mobile-menu"
+              class="absolute inset-x-0 top-0 z-10 origin-top-right transform p-2 transition duration-150 ease-out invisible"
+            >
+              <div
+                class="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5"
+              >
+                <div class="flex items-center justify-between px-5 pt-4">
+                  <div>
+                    <img
+                      class="h-8 w-auto"
+                      src="ph_logo_2.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="-mr-2">
+                    <button
+                    id="close-button"
+                      type="button"
+                      class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cyan-500"
+                    >
+                      <span class="sr-only">Close menu</span>
+                      <!-- Heroicon name: outline/x-mark -->
+                      <svg
+                        class="h-6 w-6"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M6 18L18 6M6 6l12 12"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div class="px-2 pt-2 pb-3">
+                  <a
+                    href="#"
+                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                    >Past Projects</a
+                  >
+
+                  <a
+                    href="#"
+                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                    >Products</a
+                  >
+
+                  <a
+                    href="#"
+                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                    >Who we are</a
+                  >
+
+                  <a
+                    href="#"
+                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                    >Contact us</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <main class="mx-auto mt-16 max-w-7xl px-4 sm:mt-24">
+            <div class="text-center">
+              <h1
+                class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl"
+              >
+                <span class="block xl:inline text-cyan-500">Pasley Hill</span>
+                <span class="block text-cyan-800 xl:inline"
+                  >building better software faster.</span
+                >
+              </h1>
+              
+              <div
+                class="mx-auto mt-5 max-w-md sm:flex sm:justify-center md:mt-8"
+              >
+                <div class="rounded-md shadow">
+                  <a
+                    href="#"
+                    class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-600 px-8 py-3 text-base font-medium text-white hover:bg-cyan-700 md:py-4 md:px-10 md:text-lg"
+                    >Get a quote</a
+                  >
+                </div>
+              </div>
+            </div>
+
+
+            <div class="bg-white py-12 mt-10">
+                <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                  <div class="lg:text-center">
+                    <p class="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">We build your internal or customer facing software faster</p>
+                    <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">Whether you are building a new product, seeking to optimize your business procedures, or create ways to gain insights on your businesses data, we can do it faster</p>
+                  </div>
+              
+                  <div class="mt-10">
+                    <dl class="space-y-10 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10 md:space-y-0">
+                      <div class="relative">
+                        <dt>
+                          <div class="absolute flex h-12 w-12 items-center justify-center rounded-md bg-cyan-500 text-white">
+                            <!-- Heroicon name: outline/globe-alt -->
+                            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                            </svg>
+                          </div>
+                          <p class="ml-16 text-lg font-medium leading-6 text-gray-900">Cloud Enabled Competitive Rates</p>
+                        </dt>
+                        <dd class="mt-2 ml-16 text-base text-gray-500">We use AWS, Google and Microsoft infrastructure and seek out ways to get you the lowest cost to run your software better, and at scale.</dd>
+                      </div>
+              
+                      <div class="relative">
+                        <dt>
+                          <div class="absolute flex h-12 w-12 items-center justify-center rounded-md bg-cyan-500 text-white">
+                            <!-- Heroicon name: outline/scale -->
+                            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971z" />
+                            </svg>
+                          </div>
+                          <p class="ml-16 text-lg font-medium leading-6 text-gray-900">No Hidden Fees. Ever.</p>
+                        </dt>
+                        <dd class="mt-2 ml-16 text-base text-gray-500">Pasley Hill configures your own infrastructure account for you, and then allows you to pay those vendors directly; vendors like Amazon Web Services, Microsoft and Google. </dd>
+                      </div>
+              
+                      <div class="relative">
+                        <dt>
+                          <div class="absolute flex h-12 w-12 items-center justify-center rounded-md bg-cyan-500 text-white">
+                            <!-- Heroicon name: outline/bolt -->
+                            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                            </svg>
+                          </div>
+                          <p class="ml-16 text-lg font-medium leading-6 text-gray-900">Software is Delivered Faster</p>
+                        </dt>
+                        <dd class="mt-2 ml-16 text-base text-gray-500">We integrate with our customers and communicate consistently.  Doing this allows us to accomplish requirements faster and with high customer staisfaction.  We also use modern frameworks to constantly increase our software delivery time-lines</dd>
+                      </div>
+              
+                      <div class="relative">
+                        <dt>
+                          <div class="absolute flex h-12 w-12 items-center justify-center rounded-md bg-cyan-500 text-white">
+                            <!-- Heroicon name: outline/chat-bubble-bottom-center-text -->
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25a3 3 0 013 3m3 0a6 6 0 01-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1121.75 8.25z" />
+                              </svg>
+                              
+                          </div>
+                          <p class="ml-16 text-lg font-medium leading-6 text-gray-900">We Build It. You Own It.</p>
+                        </dt>
+                        <dd class="mt-2 ml-16 text-base text-gray-500">Other companies try to lock you in, we try to give you the freedom you deserve. Pasley Hill provides customers with the documentation needed to deploy and maintain their software, and customers are responsible for paying for the infrastructure.</dd>
+                      </div>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+
+            <!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+<div class="bg-white mt-10 mb-2">
+    <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
+      <div class="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
+        <div class="space-y-5 sm:space-y-4">
+          <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Our Team</h2>
+          <p class="text-xl text-gray-500">Nulla quam felis, enim faucibus proin velit, ornare id pretium. Augue ultrices sed arcu condimentum vestibulum suspendisse. Volutpat eu faucibus vivamus eget bibendum cras.</p>
+        </div>
+        <div class="lg:col-span-2">
+          <ul role="list" class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8">
+            <li>
+              <div class="space-y-4">
+                <div class="aspect-w-3 aspect-h-2">
+                  <img class="rounded-lg object-cover shadow-lg" src="https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+                </div>
+                <div class="space-y-1 text-lg font-medium leading-6">
+                  <h3>Christopher Hill</h3>
+                  <p class="text-indigo-600">Senior Front-end Developer</p>
+                </div>
+                <div class="text-lg">
+                  <p class="text-gray-500">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
+                </div>
+  
+                <ul role="list" class="flex space-x-5">
+                  <li>
+                    <a href="#" class="text-gray-400 hover:text-gray-500">
+                      <span class="sr-only">Twitter</span>
+                      <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                        <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-gray-400 hover:text-gray-500">
+                      <span class="sr-only">LinkedIn</span>
+                      <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+  
+            <!-- More people... -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+            <div class="bg-cyan-600 mt-10">
+                <div class="mx-auto max-w-4xl px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:px-8 lg:pt-24">
+                  <h2 class="text-3xl font-bold tracking-tight text-white">Past Projects</h2>
+                  <p class="mt-4 max-w-3xl text-lg text-cyan-200">The software world can help businesses optimize and focus on the core of what they do, and we help companies to become a part of that world. Here are a few things we've built that have gone on to become foundational to the growth of the businesses that hired us.</p>
+                  <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-1 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
+                    <div>
+                      <div>
+                        <span class="items-center justify-center rounded-md bg-white bg-opacity-50">
+                          <!-- Heroicon name: outline/inbox -->
+
+                          <img
+                          class="w-fit"
+                            src="therabody_logo.svg"
+                            alt=""
+                            />
+                        </span>
+                      </div>
+                      <div class="mt-6">
+                       
+                        <h3 class="text-lg font-medium text-white"> <a href="https://www.rpsports.com/" target="_blank">RP Sports</a></h3><em class="font-thin text-gray-100">Now Therabody</em>
+                        <p class="mt-2 text-base text-cyan-200">RP Sports (Therabody) needed a way to use Squarespace to retain design control over the site, along with their payments provider Authorize.net, which did not integrate into Squarespace. In addition, they needed special tax and shipping calculation systems. RP Sports hired Pasley Hill to create an efficient online sales pipeline by connecting a custom Squarespace e-commerce page and Zoho CRM. 
+                            
+                        </p>
+                        <p class="mt-2">
+                            <a href="https://www.rpsports.com/" target="_blank" class="text-white mt-2">www.rpsports.com</a>
+                        </p>
+                        <ul class="list-disc  text-cyan-100  mt-4 ml-3">
+                            <li class="mt-1">Customized Tax calculation prior to online sale</li>
+                            <li class="mt-1">Orders from SquareSpace automatically create a Sales Order, Invoice, and if a customer does not exist, they are created</li>
+                            <li class="mt-1">Integrate discount codes, product descriptions, and product images managed in Zoho CRM, and automatically imported into custom SquareSpace Ecommerce page</li>
+                            <li class="mt-1">A shipping system that builds packaging manifest for the shipping department to follow, and precisely calculates shipping costs.</li>
+                        </ul>
+                        
+                      </div>
+                    </div>
+              
+                    <div>
+                      <div>
+                        <span class="items-center justify-center rounded-md bg-white bg-opacity-50">
+                            <!-- Heroicon name: outline/inbox -->
+  
+                            <img
+                              class="w-2/3"
+                              src="pmd_logo.png"
+                              alt=""
+                              />
+                          </span>
+                      </div>
+                      <div class="mt-6">
+                        <h3 class="text-lg font-medium text-white"><a href="https://www.patriotmedical.com/">Patriot Medical Distributors</a></h3>
+                        <p class="mt-2 text-base text-cyan-200">Patriot Medical Distributors distributes Lymphedema treatment medical equipment through a network of partners, and they now rely on a medical system for order distribution built by Pasley Hill. Patriot Medical Distributors hired Pasley Hill to create a HIPPA-compliant order management web application for partners. Partners use the application to place and manage order delivery, distribution, and patient data.</p>
+                        <p class="mt-2">
+                            <a href="https://www.patriotmedical.com/" target="_blank" class="text-white mt-2">www.patriotmedical.com</a>
+                        </p>
+                        <ul class="list-disc  text-cyan-100  mt-4 ml-3">
+                            <li class="mt-1">HIPPA compliant web application for managing incoming orders</li>
+                            <li class="mt-1">Each partner administrator can only view their company's orders, statuses, and manage them.</li>
+                            <li class="mt-1">Users get meaningful real time emails and notifications when orders have been updated.</li>
+                            <li class="mt-1">Insurance compliance paperwork is pre-filled with patient information and securely distributed.</li>
+                            <li class="mt-1">The shipping department is given an optimized interface that increases order distribution through the use of scanners, automation, and UPS shipping integration</li>
+                        </ul>
+                    </div>
+                    </div>
+              
+                    <div>
+                      <div>
+                        <span class="items-center justify-center rounded-md bg-white bg-opacity-50">
+                            <!-- Heroicon name: outline/inbox -->
+  
+                            <img
+                              class="w-80"
+                              src="bob-logo.png"
+                              alt=""
+                              />
+                          </span>
+                      </div>
+                      <div class="mt-6">
+                        <h3 class="text-lg font-medium text-white"><a href="https://www.bentonbetter.com">Bent On Better</a></h3>
+                        <p class="mt-2 text-base text-cyan-200">Bent-on-Better requested Pasley Hill build a mobile-optimized web application for a Scavenger Hunt event attended by gym members. The app was used by members on their phones while competing in a geography-based scavenger hunt where each team member would log in. They were to use the web app to navigate clues and submit photos and video evidence of scavenger hunt objectives. Those whose media is tallied and verified at the end, along with their completion time, would win. 
+                        
+                        </p>
+                        <p class="mt-2">
+                            <a href="https://www.bentonbetter.com" target="_blank" class="text-white mt-2">www.bentonbetter.com</a>
+                        </p>
+                        <ul class="list-disc  text-cyan-100  mt-4 ml-3">
+                            <li class="mt-1">A single-page web application that would run on android or iPhone devices</li>
+                            <li class="mt-1">The app used the Google Maps API to show the users current location in relation to where clues were on the map.  Users were alerted when they were no longer in the correct area.</li>
+                            <li class="mt-1">A Google Sheet managed the application as its primary data source of users, questions/clues, and finally, the media submissions by team members.</li>
+                            <li class="mt-1">The users would upload high-quality photos and videos through the application and that data is stored as a submission in the corresponding Google Sheet tab.</li>
+                            <li class="mt-1">The client projects seasonal usage, and no personally identifying information is stored; therefore, the user database is also in Google Sheets.</li>
+                            <li class="mt-1">The gym staff would use the public links of the photos and videos referenced by the application to verify who won.</li>
+                            <li class="mt-1">The Google Sheet data inform the application questions, and when Gym staff change questions, they would change the application view.</li>
+                        </ul>
+                      </div>
+                    </div>
+              
+              
+                   
+                </div>
+              </div>
+              
+
+          </main>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="/js/main.js" type="module"></script>
+</html>
